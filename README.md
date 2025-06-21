@@ -9,7 +9,7 @@ orientado pelo professor **José Correia**.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Cypress
 - JavaScript 
@@ -20,13 +20,12 @@ orientado pelo professor **José Correia**.
 
 ## Estrutura do Projeto
 
-```
 cypress/
 ├── e2e/
 │   ├── produto1.spec.cy.js
 │   └── produto2.spec.cy.js
 ├── fixtures/
-│   ├── datalogin.json
+│   └── datalogin.json
 ├── support/
 │   ├── pages/
 │   │   ├── LoginPage.js
@@ -35,7 +34,6 @@ cypress/
 │   │   ├── BillingAddress.js
 │   │   └── DataCard.js
 │   └── commands.js
-```
 
 ---
 
@@ -81,4 +79,3 @@ npx cypress open
 ## Licença
 
 Projeto desenvolvido para fins acadêmicos.
-```
