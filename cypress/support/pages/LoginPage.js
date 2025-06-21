@@ -1,4 +1,5 @@
 class LoginPage {
+  
   preencherEmail(email) {
     cy.get('[data-test="email"]').type(email);
   }

@@ -1,7 +1,7 @@
-class ProductPage {
+class Produto2 {
 
-  selecionarProdutoPliers() {
-    cy.get("[alt='Pliers']").click();
+  selecionarProdutoHammer() {
+    cy.get("[alt='Hammer']").click();
   }
 
   validarNome(nomeEsperado) {
@@ -21,4 +21,4 @@ class ProductPage {
   }
 }
 
-export default new ProductPage();
+export default new Produto2();

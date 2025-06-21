@@ -7,7 +7,7 @@ describe('Fluxo de compra Practice Software Testing', () => {
   it('Compra do produto Plier', () => {
     cy.visit('/');
 
-    ProductPage.selecionarProdutoPliers(); 
+    ProductPage.selecionarProdutoPliers();
     ProductPage.validarNome('Pliers');
     ProductPage.validarPreco('12.01');
     ProductPage.adicionarAoCarrinho();
@@ -32,9 +32,6 @@ describe('Fluxo de compra Practice Software Testing', () => {
     cy.get('[data-test="payment-method"]').select('Cash on Delivery');
     cy.get('[data-test="finish"]').click();
     cy.get('[data-test="payment-success-message"]').should('have.text', 'Payment was successful');
-
-    
-    
 
   });
 });
